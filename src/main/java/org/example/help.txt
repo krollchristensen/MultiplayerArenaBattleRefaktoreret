@@ -1,0 +1,8 @@
+Problemer med koden
+Denne klasse Game bryder SRP, fordi den har mange ansvarsområder:
+
+Håndtering af spillere: Tilføje og fjerne spillere.
+Scoreberegning: Beregner point baseret på handlinger.
+Leaderboard: Viser listen over spillere.
+Gem/indlæs spil: Håndterer persistens af spillets status.
+Disse ansvarsområder bør opdeles i separate klasser for at overholde SRP.
